@@ -1,6 +1,37 @@
-# active-directory-scripts
+<div align="center">
 
-A collection of PowerShell scripts for managing and automating Active Directory tasks including user management, group membership reporting, OU audits, stale account cleanup, and GPO management.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d324d,50:7f5a83,100:0d324d&height=200&section=header&text=Active+Directory+Scripts&fontSize=60&fontColor=00d9ff&fontAlign=70&animation=fadeIn&fontAlignY=45&desc=PowerShell+scripts+for+AD+management+and+automation&descAlign=50&descSize=20"/></div>
+
+<div align="center">
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active+Directory-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows+Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Scripts](https://img.shields.io/badge/Scripts-3-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+</div>
+
+<div align="center">
+<a href="https://github.com/Predator-VJ/active-directory-scripts">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00d9ff&center=true&vCenter=true&multiline=false&width=435&lines=User+Management+Reports;Group+Membership+Audits;OU+Structure+Reports"/>
+</a>
+</div>
+
+<br/>
+
+---
+
+## Script Arsenal
+
+| Script | Description | Category |
+|---|---|---|
+| `Get-ADUserReport.ps1` | Comprehensive AD user report | Reporting |
+| `Get-ADGroupReport.ps1` | Group membership & nesting | Auditing |
+| `Get-ADOUReport.ps1` | OU structure & object counts | Hierarchy |
+
+---
 
 ## Requirements
 
@@ -74,9 +105,7 @@ Generates an OU structure report with child object counts.
 .\Get-ADOUReport.ps1
 ```
 
-## README
-
-This project uses an MIT license. See the LICENSE file for details.
+---
 
 ## Contributing
 
@@ -91,4 +120,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Maintained by Predator-VJ
 
 ---
-*For questions or issues, please open a GitHub issue.*
+
+<div align="center">
+<img src="https://badges.pufler.dev/visits/Predator-VJ/active-directory-scripts"/>
+</div>
